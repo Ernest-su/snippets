@@ -5,7 +5,7 @@
 while read file_url
 do
     wget --content-disposition -c ${file_url}
-    sleep 5
+    sleep 241
 done < urls.txt
 
 
